@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fba87be5-4285-4b03-9a0a-0a04e0637d05" name="Changes" comment="Fetching multiple data from DB">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/JdbcConfig.java" afterDir="false" />
+    <list default="true" id="fba87be5-4285-4b03-9a0a-0a04e0637d05" name="Changes" comment="Selecting Single Object using Spring Jdbc from DB">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/JdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/JdbcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/dao/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/dao/StudentDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/jdbc/dao/StudentDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/jdbc/dao/StudentDaoImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1-spring-jdbc-configuration-without-xml" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
