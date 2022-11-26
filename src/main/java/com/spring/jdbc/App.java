@@ -24,11 +24,20 @@ public class App
 
         //Create student object
         Student student = new Student();
-        student.setId(6);
-        student.setName("Alay");
-        student.setCity("Jammu");
+        student.setId(7);
+        student.setName("Jaypal");
+        student.setCity("Nasik");
 
         int result = studentDao.insert(student);
         System.out.println("Data Inserted..."+result );
+
+        //Update student object
+        Student student1 = new Student();
+        student1.setId(2);
+        student1.setName("Raj");
+        student1.setCity("Varanasi");
+
+        int result1 = studentDao.change(student1);
+        System.out.println("Data Changed.."+result1);
     }
 }
