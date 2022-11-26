@@ -25,31 +25,36 @@ public class App
         StudentDao studentDao = context.getBean("studentDao", StudentDao.class);
 
         //Create student object
-        Student student = new Student();
-        student.setId(8);
-        student.setName("Alay");
-        student.setCity("Jain");
+      //  Student student = new Student();
+      //  student.setId(8);
+      //  student.setName("Alay");
+      //  student.setCity("Jain");
 
-        int result = studentDao.insert(student);
-        System.out.println("Data Inserted..."+result );
+      //  int result = studentDao.insert(student);
+      //  System.out.println("Data Inserted..."+result );
 
         //Update student object
-        Student student1 = new Student();
-        student1.setId(1);
-        student1.setName("Jigar");
-        student1.setCity("Mavani");
+      //  Student student1 = new Student();
+      //  student1.setId(1);
+      //  student1.setName("Jigar");
+      //  student1.setCity("Mavani");
 
-        int result1 = studentDao.change(student1);
-        System.out.println("Data Changed..."+result1);
+      //  int result1 = studentDao.change(student1);
+      //  System.out.println("Data Changed..."+result1);
 
         //Delete student object
-        Scanner sc=new Scanner(System.in);
+      //  Scanner sc=new Scanner(System.in);
 
-        System.out.println("Enter the Student ID you want to Delete:");
-        int id=sc.nextInt();
-        sc.close();
+      //  System.out.println("Enter the Student ID you want to Delete:");
+      //  int id=sc.nextInt();
+      //  sc.close();
 
-        int result2=studentDao.delete(id);
-        System.out.println("No of Record deleted..."+result2);
+      //  int result2=studentDao.delete(id);
+      //  System.out.println("No of Record deleted..."+result2);
+
+        //Select Single data
+        Student student = studentDao.getStudent(7);
+        System.out.println(student);
+
     }
 }
