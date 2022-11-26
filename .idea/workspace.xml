@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fba87be5-4285-4b03-9a0a-0a04e0637d05" name="Changes" comment="Established the database connection and insert the record into db">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/dao/StudentDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/entites/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/jdbc/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/jdbc/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/jdbc/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,7 +63,7 @@
       <module name="springJDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.jdbc.*" />
+          <option name="PATTERN" value="com.spring.jdbc.entites.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,8 +86,16 @@
       <option name="presentableId" value="Default" />
       <updated>1669317856221</updated>
       <workItem from="1669317857597" duration="1171000" />
-      <workItem from="1669327678603" duration="1966000" />
+      <workItem from="1669327678603" duration="4349000" />
     </task>
+    <task id="LOCAL-00001" summary="Established the database connection and insert the record into db">
+      <created>1669329678650</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669329678650</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
