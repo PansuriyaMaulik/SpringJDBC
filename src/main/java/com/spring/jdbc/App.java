@@ -7,6 +7,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jdbc.core.JdbcTemplate;
 
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -52,9 +53,15 @@ public class App
       //  int result2=studentDao.delete(id);
       //  System.out.println("No of Record deleted..."+result2);
 
-        //Select Single data
-        Student student = studentDao.getStudent(7);
-        System.out.println(student);
+        //Select/fetch Single data
+      //  Student student = studentDao.getStudent(7);
+      //  System.out.println(student);
 
+        //Fetch mutliple data
+        List<Student> student = studentDao.getAllStudents();
+        for(Student s:student)
+        {
+            System.out.println(s);
+        }
     }
 }
