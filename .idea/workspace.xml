@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fba87be5-4285-4b03-9a0a-0a04e0637d05" name="Changes" comment="Selecting Single Object using Spring Jdbc from DB">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/JdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/JdbcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/dao/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/jdbc/dao/StudentDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/jdbc/dao/StudentDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/jdbc/dao/StudentDaoImpl.class" afterDir="false" />
-    </list>
+    <list default="true" id="fba87be5-4285-4b03-9a0a-0a04e0637d05" name="Changes" comment="Autowiring with Spring Jdbc" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669466918250</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Autowiring with Spring Jdbc">
+      <created>1669471147156</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669471147156</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +155,7 @@
     <MESSAGE value="Delete the data from db" />
     <MESSAGE value="Selecting Single Object using Spring Jdbc from DB" />
     <MESSAGE value="Fetching multiple data from DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fetching multiple data from DB" />
+    <MESSAGE value="Autowiring with Spring Jdbc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Autowiring with Spring Jdbc" />
   </component>
 </project>

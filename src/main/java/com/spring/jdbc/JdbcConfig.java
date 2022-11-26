@@ -12,7 +12,7 @@ import javax.sql.DataSource;
 
 
 @Configuration
-@ComponentScan(basePackages = {"com.spring.jdbc.dao "})
+@ComponentScan(basePackages = {"com.spring.jdbc.dao"})
 public class JdbcConfig {
 
     @Bean("dataSource")
